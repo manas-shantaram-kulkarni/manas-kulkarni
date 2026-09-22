@@ -1,0 +1,75 @@
+published:
+  - title: "Economic Connectedness Around the World: Measurement, Determinants, and Effects"
+    coauthors: "Michael Bailey, Drew Johnston, Theresa Kuchler, Ayush Kumar, Manas Kulkarni, and Johannes Stroebel"
+    publication_info: "Revise and Resubmit at Nature"
+    abstract: ""
+    presented: "Presented at Opportunity Insights: Summer of Opportunity, Harvard University, Summer 2026."
+    links: []
+
+  - title: "The Social Connectedness Index: A Large-Scale Dataset of Social Ties Across Geographic Locations"
+    coauthors: "Drew Johnston, Theresa Kuchler, Manas Kulkarni, and Johannes Stroebel"
+    publication_info: "Data in Brief, 67(112905), June 2026"
+    abstract: "This article describes a new release of the Social Connectedness Index (SCI), a large-scale measure of social ties across geographic locations constructed from Facebook friendship links. The newly available SCI data have substantially expanded global coverage and finer geographic resolution than prior versions, and provide measures of social connectedness for national and subnational units across 178 countries. The SCI dataset is based on Facebook friendship networks from January 2026 and is freely available through the Humanitarian Data Exchange. This data descriptor details the methodology used to construct the measure, the structure of the SCI dataset, and its geographic coverage at various granularities."
+    presented: ""
+    links:
+      - label: "Data Download"
+        url: "https://data.humdata.org/dataset/social-connectedness-index"
+      - label: "Data Visualization"
+        url: "https://social-connectedness.org/"
+
+working:
+  - title: "Caste, Class, & Cutoffs: The effect of identity-based and income-based affirmative action on educational attainment in India"
+    coauthors: ""
+    publication_info: "Honors thesis in Economics, advised by Alejandro Ganimian. Harvard, Spring 2025."
+    abstract: "India's extensive affirmative action program mandates quotas based on caste-identity and income-level for public sector jobs and admission into colleges. This paper examines the effect of two policies on educational outcomes in India -- an expansion in caste-based reservations through a shift in the income threshold in 2017 (Creamy Layer) and the introduction of purely income-based reservations in 2019 (Economically Weaker Section). I use a large nationally representative panel dataset (2014–2024) of 1.3 million individuals to employ a cohort difference-in-differences strategy. I find that the expansion in caste-based reservations increased schooling by 0.26 to 0.88 years for students who were previously ineligible for reservations but became eligible due to the policy change and were young enough to benefit. This effect is an increasing function of the number of years of exposure to the policy; students who are younger at the time of policy change experience greater increases in schooling. I also find evidence that suggests that the introduction of the income-based quotas is associated with an increase in the educational attainment of affected individuals. These findings contribute to the literature on the effect of affirmative action policies on human capital investment, particularly policies designed along socioeconomic criteria."
+    presented: "Presented at Pforzheimer House Thesis Presentations, Harvard University, Spring 2025."
+    links: []
+
+  - title: "Stay Hungry, Stay Foolish: The effect of mid-day school meals on academic performance in India"
+    coauthors: ""
+    publication_info: "Development Economics with Sanjay Jain. Oxford, Spring 2024."
+    abstract: "What is the effect of increased nutrition in the form of an additional daily meal on the academic performance of school-age children as measured by standardized tests? Methodology: Instrumental variables regression model using a policy variation (extra meals provided in drought affected regions) on an existing large-N dataset."
+    presented: ""
+    links: []
+
+  - title: "Paying in Cash or by Card? The effect of cashlessness on consumption"
+    coauthors: ""
+    publication_info: "Globalization and Private Governance with Michael Hiscox. Harvard, Fall 2023."
+    abstract: "What is the effect of the use of physical vs digital methods of payment on a consumer’s propensity to spend? Methodology: Time series data analysis on household consumption data pre- and post-demonetization. Online behavioral survey experiment (n = 200). Pilot field survey experiment (n = 32)."
+    presented: ""
+    links: []
+
+  - title: "The War on Cash: The effect of demonetization on tax revenue in India"
+    coauthors: ""
+    publication_info: "Natural Experiments with Ross Mattheis. Harvard, Spring 2023."
+    abstract: "What was the effect of the 2016 Indian banknote demonetization on direct tax collection? Methodology: Synthetic difference-in-differences using tax revenue data from 196 countries."
+    presented: ""
+    links: []
+
+  - title: "Read My Lips: Case studies on taxation as a tool for the populist pursuit of power"
+    coauthors: ""
+    publication_info: "Democratization and Democratic Backsliding with Daniel Ziblatt. Harvard, Spring 2023."
+    abstract: "When and why do right-wing populists use progressive taxation as a tool to gain electoral support? Methodology: Process tracing, qualitative case studies, secondary studies, text analysis of speeches using NVivo etc."
+    presented: ""
+    links: []
+
+  - title: "Spatial and demographic determinants of ethnic conflict: communal violence in India"
+    coauthors: ""
+    publication_info: "Geographic Information Systems with Jill Kelly. Harvard, Fall 2022."
+    abstract: "What are the spatial and demographic determinants of Hindu-Muslim tensions in India? Does the case of communal violence in India align with the primordialist or the instrumentalist account of ethnic conflict? Methodology: Geospatial analysis using ArcGIS."
+    presented: ""
+    links: []
+
+  - title: "Citizen expectation-formation and demand-making under varying taxation in India"
+    coauthors: ""
+    publication_info: "Democracy in Practice in the Global South with Julie Weaver. Harvard, Fall 2022."
+    abstract: "How do citizen expectations for public goods provision vary with direct tax contributions? Does the proportion of earned income paid in taxes shape these expectations, and if so, how? Methodology: Survey experiment to test loss aversion through behavioral games."
+    presented: ""
+    links: []
+
+  - title: "A Cross-Cultural Analysis of the Vegan-Leftist Connection"
+    coauthors: ""
+    publication_info: "Animals and Politics with Sparsha Saha. Harvard, Fall 2021."
+    abstract: "How closely is vegetarianism/veganism linked to leftism and to what extent is carnism linked to right-wing tendencies? Methodology: Survey experiment in the US and India using right-wing authoritarianism questionnaire, social dominance orientation questionnaire, and meat eating justification scale."
+    presented: ""
+    links: []

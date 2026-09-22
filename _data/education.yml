@@ -1,0 +1,31 @@
+- institution: "Harvard University"
+  degree: "A.B. in Economics and Government"
+  grades: "High Honors, magna cum laude. GPA 3.93/4.00."
+  location: "Cambridge, MA"
+  dates: "August 2021 - May 2025"
+  description: ""
+  links: []
+
+- institution: "Oriel College, University of Oxford"
+  degree: "Visiting Student, Philosophy, Politics, and Economics"
+  grades: "First Class."
+  location: "Oxford, UK"
+  dates: "January 2024 - June 2024"
+  description: ""
+  links: []
+
+- institution: "United World College Dilijan"
+  degree: "International Baccalaureate Diploma Programme"
+  grades: "IB 49/52. SAT 1530/1600."
+  location: "Dilijan, Armenia"
+  dates: "August 2018 - May 2020"
+  description: ""
+  links: []
+
+- institution: "Vibgyor High"
+  degree: "Indian Certificate of Secondary Education"
+  grades: "96.2%."
+  location: "Pune, India"
+  dates: "June 2007 - April 2018"
+  description: ""
+  links: []

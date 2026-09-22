@@ -1,0 +1,15 @@
+main:
+  - title: "Email"
+    url: "mailto:manas.shantaram.kulkarni@gmail.com"
+  - title: "CV"
+    url: /#
+  - title: "LinkedIn"
+    url: "https://www.linkedin.com/in/manaskulkarnii/"
+  - title: "Google Scholar"
+    url: "https://scholar.google.com/citations?hl=en&user=PMUR5ywAAAAJ"
+  - title: "Research"
+    url: /
+  - title: "Education"
+    url: /education/
+  - title: "Professional"
+    url: /professional/

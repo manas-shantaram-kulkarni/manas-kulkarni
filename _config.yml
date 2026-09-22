@@ -1,0 +1,23 @@
+title: "Manas Kulkarni"
+description: "UWC, Harvard, Oxford, NYU, Meta"
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - vendor/
+  - node_modules
+  - node_modules/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
