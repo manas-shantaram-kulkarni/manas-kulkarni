@@ -173,6 +173,15 @@ li + li {
   margin-bottom: 6px;
 }
 
+.entry > .meta {
+  line-height: 1.35;
+  margin-bottom: 3px;
+}
+
+.entry > .meta:last-of-type {
+  margin-bottom: 0;
+}
+
 .entry {
   margin-bottom: 18px;
 }
@@ -195,6 +204,26 @@ li + li {
 .entry-header h3,
 .entry-header p {
   margin: 0;
+}
+
+.education-entry .entry-header,
+.professional-entry .entry-header {
+  row-gap: 1px;
+  margin-bottom: 4px;
+}
+
+.education-entry .entry-header .meta,
+.professional-entry .entry-header .meta {
+  line-height: 1.35;
+}
+
+.entry-description {
+  margin-bottom: 4px;
+}
+
+.entry-description > :last-child,
+.abstract-text > :last-child {
+  margin-bottom: 0;
 }
 
 .entry-header h3 {
@@ -222,16 +251,18 @@ li + li {
 }
 
 .abstract-toggle {
-  display: block;
+  align-items: baseline;
+  display: inline-flex;
+  line-height: 1.35;
   order: 0;
 }
 
 .abstract-toggle summary {
   color: var(--blue);
   cursor: pointer;
-  display: inline;
+  display: inline-block;
   font-size: 13px;
-  line-height: 1.5;
+  line-height: 1.35;
   list-style: none;
   text-decoration-line: underline;
   text-decoration-thickness: 1px;
@@ -259,14 +290,16 @@ li + li {
 }
 
 .entry-links {
+  align-items: baseline;
   display: flex;
   flex-wrap: wrap;
   gap: 0 5px;
-  margin-top: 8px;
+  margin-top: 4px;
 }
 
 .entry-links a {
   font-size: 13px;
+  line-height: 1.35;
   order: 0;
 }
 

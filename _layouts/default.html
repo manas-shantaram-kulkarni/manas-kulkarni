@@ -13,7 +13,7 @@
         <a href="{{ '/timeline/' | relative_url }}" aria-label="Timeline">
           <img class="sidebar-photo" src="{{ '/assets/images/manas-kulkarni.jpg' | relative_url }}" alt="Portrait of Manas Kulkarni">
         </a>
-        <h1 class="sidebar-name"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <h1 class="sidebar-name"><a href="{{ '/' | relative_url }}">{% include markdown-inline.html text=site.title %}</a></h1>
         <nav class="sidebar-nav" aria-label="Primary navigation">
           {% for item in site.data.navigation.main %}
             {% assign first_char = item.url | slice: 0 %}
@@ -22,17 +22,27 @@
             {% else %}
               {% assign item_url = item.url | relative_url %}
             {% endif %}
-            <a href="{{ item_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+            <a href="{{ item_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{% include markdown-inline.html text=item.title %}</a>
           {% endfor %}
         </nav>
       </aside>
 
       <main class="content">
         {% unless page.hide_title %}
-          <h1>{{ page.title }}</h1>
+          <h1>{% include markdown-inline.html text=page.title %}</h1>
         {% endunless %}
         {{ content }}
       </main>
     </div>
+    <script>
+      document.querySelectorAll('a[href]').forEach(function(link) {
+        var url = new URL(link.href, window.location.href);
+
+        if ((url.protocol === 'http:' || url.protocol === 'https:') && url.origin !== window.location.origin) {
+          link.target = '_blank';
+          link.rel = 'noopener noreferrer';
+        }
+      });
+    </script>
   </body>
 </html>

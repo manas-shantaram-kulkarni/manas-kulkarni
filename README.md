@@ -14,6 +14,13 @@ Personal website built with Jekyll.
 - Timeline entries: `_data/timeline.yml`
 - Navigation: `_data/navigation.yml`
 
+Text fields in YAML support Markdown. For example:
+
+```yaml
+description: "Research based on [Project Zero](https://pz.harvard.edu/) materials."
+publication_info: "*Data in Brief*, 67(112905), June 2026"
+```
+
 ## Local Preview
 
 Install dependencies once:

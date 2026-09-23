@@ -5,11 +5,11 @@ permalink: /timeline/
 
 {% for item in site.data.timeline %}
 <section class="timeline-year">
-  <h2>{{ item.year }}</h2>
+  <h2>{% include markdown-inline.html text=item.year %}</h2>
   {% if item.items and item.items.size > 0 %}
     <ul>
       {% for bullet in item.items %}
-        <li>{{ bullet | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+        <li>{% include markdown-inline.html text=bullet %}</li>
       {% endfor %}
     </ul>
   {% endif %}

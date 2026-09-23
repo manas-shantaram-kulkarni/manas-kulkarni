@@ -1,0 +1,2 @@
+{%- assign rendered_text = include.text | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines -%}
+{{- rendered_text -}}
