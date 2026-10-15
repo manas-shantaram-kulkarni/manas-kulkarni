@@ -2,31 +2,31 @@
   position: "Junior Research Scientist"
   location: "New York, NY"
   dates: "July 2025 - June 2027"
-  description: "Research with Johannes Stroebel and Theresa Kuchler on social networks, economic connectedness, social capital, mobility, and related economic outcomes"
+  description: "Research with Johannes Stroebel and Theresa Kuchler on social networks, economic connectedness, social capital, mobility, and related economic outcomes."
   links: []
 
-- company: "Opportunity Insights"
-  position: "Research Associate"
-  location: "Cambridge, MA / New York, NY"
-  dates: "July 2025 - June 2027"
-  description: "Research on social networks, economic connectedness, social capital, mobility, and related economic outcomes."
-  links: []
-
-- company: "Meta"
-  position: "Research Contractor"
+- company: "Opportunity Insights, Harvard University"
+  position: "Associate"
   location: "New York, NY"
   dates: "July 2025 - June 2027"
   description: "Research on social networks, economic connectedness, social capital, mobility, and related economic outcomes."
   links: []
 
-- company: "Harvard Department of Economics"
-  position: "Teaching Assistant and Section Leader"
+- company: "Meta Platforms"
+  position: "Researcher"
+  location: "New York, NY"
+  dates: "July 2025 - June 2027"
+  description: "Research on social networks, economic connectedness, social capital, mobility, and related economic outcomes."
+  links: []
+
+- company: "Department of Economics, Harvard University"
+  position: "Course Assistant and Section Leader"
   location: "Cambridge, MA"
   dates: "January 2023 - May 2025"
   description: "Led weekly sections of 10-15 students, held office hours and study halls, graded assignments, and managed course logistics for Intermediate Microeconomics (Spring '23 & '25) with Marc Melitz, Principles of Microeconomics (Spring '25) with Anne Le Brun, Principles of Macroeconomics (Fall '23 & '24) with Andres Maggi, and Corporate Finance (Fall '23 & '24) with Daniel Bergstresser."
   links: []
 
-- company: "Harvard Graduate School of Education"
+- company: "Project Zero, Harvard Graduate School of Education"
   position: "Research Project Assistant"
   location: "Cambridge, MA"
   dates: "November 2021 - January 2024"
@@ -34,28 +34,35 @@
   links: []
 
 - company: "United World College Endowment Management"
-  position: "Investment Analyst"
+  position: "Investment Intern"
   location: "London, UK"
   dates: "June 2024 - July 2024"
   description: "Performed financial analysis to inform ethical investment decisions for the UWC endowment fund and developed an investment thesis on holding companies through research on Swedish family-owned firms."
   links: []
 
 - company: "Inventure"
-  position: "Venture Capital Analyst"
+  position: "Investment Intern"
   location: "Stockholm, Sweden"
   dates: "May 2023 - September 2023"
   description: "Worked with a 10-person, EUR 150 million pre-seed and seed-stage fund focused on the Nordic and Baltic region. Contributed to sourcing, research, expert calls, investment proposals, due diligence, and term-sheet negotiations across space-tech, fintech, synthetic biology, and energy storage."
   links: []
 
+- company: "Harvard Consulting on Business and the Environment"
+  position: "Case Team Leader"
+  location: "Cambridge, MA"
+  dates: "September 2021 - June 2022"
+  description: "Directed a 9-person case team and constructed weekly assignments and deadlines within 10-week case timeline. Advised a multinational pharma company on potential biotech partnerships and acquisitions (spring 2022). Advised a dairy-alternative company on framing their international supplier codes of conduct (fall 2021)."
+  links: []
+
 - company: "Eastern Mediterranean International School"
-  position: "Admissions, Marketing, and Development"
+  position: "Admissions and Development"
   location: "Tel Aviv"
   dates: "October 2020 - June 2021"
   description: "Worked in the administration of an Israeli-Palestinian-international boarding school aimed at conflict resolution. Improved admissions, selection, financial aid, and alumni engagement processes; interviewed applicants; produced promotional materials; and supported university counseling, IB tutoring, and residential life."
   links: []
 
 - company: "FluentSoon"
-  position: "General Manager and Head of Business Development"
+  position: "Founding Team, Head of Business Development"
   location: "Remote"
   dates: "April 2020 - November 2020"
   description: "Launched courses in eight languages on a language-learning management system, managed 50+ tutors and interns, coordinated sales and operations, and designed and taught materials for an online Hindi A1-B2 course with 70+ students."

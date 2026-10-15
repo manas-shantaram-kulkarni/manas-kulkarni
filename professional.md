@@ -21,3 +21,17 @@ permalink: /professional/
   {% endif %}
 </article>
 {% endfor %}
+
+## Service
+
+{% for item in site.data.service %}
+<article class="entry professional-entry">
+  <div class="entry-header">
+    <h3>{% include markdown-inline.html text=item.company %}</h3>
+    <p class="meta entry-location">{% include markdown-inline.html text=item.location %}</p>
+    <p class="meta entry-subtitle">{% include markdown-inline.html text=item.position %}</p>
+    <p class="meta entry-dates">{% include markdown-inline.html text=item.dates %}</p>
+  </div>
+  <div class="entry-description">{{ item.description | markdownify }}</div>
+</article>
+{% endfor %}

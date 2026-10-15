@@ -5,13 +5,10 @@ Personal website built with Jekyll.
 ## Edit Content
 
 - Home page: `index.md`
-- Education page: `education.md`
 - Professional page: `professional.md`
-- Timeline page: `timeline.md`
 - Research entries: `_data/research.yml`
-- Education entries: `_data/education.yml`
 - Professional entries: `_data/experience.yml`
-- Timeline entries: `_data/timeline.yml`
+- Service entries: `_data/service.yml`
 - Navigation: `_data/navigation.yml`
 
 Text fields in YAML support Markdown. For example:

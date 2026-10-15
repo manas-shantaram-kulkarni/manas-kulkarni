@@ -192,13 +192,12 @@ li + li {
 
 .entry-header {
   display: grid;
-  gap: 2px 18px;
+  gap: 1px 18px;
   grid-template-areas:
     "title location"
-    "subtitle dates"
-    "grades grades";
+    "subtitle dates";
   grid-template-columns: minmax(0, 1fr) max-content;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .entry-header h3,
@@ -206,13 +205,6 @@ li + li {
   margin: 0;
 }
 
-.education-entry .entry-header,
-.professional-entry .entry-header {
-  row-gap: 1px;
-  margin-bottom: 4px;
-}
-
-.education-entry .entry-header .meta,
 .professional-entry .entry-header .meta {
   line-height: 1.35;
 }
@@ -244,10 +236,6 @@ li + li {
   grid-area: dates;
   font-style: italic;
   text-align: right;
-}
-
-.entry-grades {
-  grid-area: grades;
 }
 
 .abstract-toggle {
@@ -303,14 +291,6 @@ li + li {
   order: 0;
 }
 
-.timeline-year {
-  margin-bottom: 18px;
-}
-
-.timeline-year li p {
-  margin: 0;
-}
-
 @media (max-width: 820px) {
   body {
     font-size: 13px;
@@ -331,7 +311,7 @@ li + li {
   }
 
   .sidebar-photo {
-    max-width: 132px;
+    max-width: 180px;
   }
 
   .sidebar-name {
@@ -402,7 +382,7 @@ li + li {
   }
 
   .sidebar-photo {
-    max-width: 118px;
+    max-width: 170px;
   }
 
   .sidebar-name {
