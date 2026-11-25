@@ -15,32 +15,7 @@ Before college, I attended United World College Dilijan, an international boardi
 
 ## Published Papers
 
-{% for item in site.data.research.published %}
-<article class="entry">
-  <h3>{% include markdown-inline.html text=item.title %}</h3>
-  {% if item.coauthors and item.coauthors != "" %}
-    <p class="meta">{% include markdown-inline.html text=item.coauthors %}</p>
-  {% endif %}
-  {% if item.publication_info and item.publication_info != "" %}
-    <p class="meta"><strong>{% include markdown-inline.html text=item.publication_info %}</strong></p>
-  {% endif %}
-  {% if item.abstract and item.abstract != "" or item.links and item.links.size > 0 %}
-    <div class="entry-links">
-      {% if item.abstract and item.abstract != "" %}
-        <details class="abstract-toggle">
-          <summary>Abstract</summary>
-        </details>
-      {% endif %}
-      {% for link in item.links %}
-        <a href="{{ link.url }}">{% include markdown-inline.html text=link.label %}</a>
-      {% endfor %}
-      {% if item.abstract and item.abstract != "" %}
-        <div class="abstract-text">{{ item.abstract | markdownify }}</div>
-      {% endif %}
-    </div>
-  {% endif %}
-</article>
-{% endfor %}
+{% include research-entries.html entries=site.data.research.published %}
 
 ## Conference Presentations
 
@@ -51,29 +26,4 @@ Before college, I attended United World College Dilijan, an international boardi
 
 ## Prior Independent Research
 
-{% for item in site.data.research.working %}
-<article class="entry">
-  <h3>{% include markdown-inline.html text=item.title %}</h3>
-  {% if item.coauthors and item.coauthors != "" %}
-    <p class="meta">{% include markdown-inline.html text=item.coauthors %}</p>
-  {% endif %}
-  {% if item.publication_info and item.publication_info != "" %}
-    <p class="meta"><strong>{% include markdown-inline.html text=item.publication_info %}</strong></p>
-  {% endif %}
-  {% if item.abstract and item.abstract != "" or item.links and item.links.size > 0 %}
-    <div class="entry-links">
-      {% if item.abstract and item.abstract != "" %}
-        <details class="abstract-toggle">
-          <summary>Abstract</summary>
-        </details>
-      {% endif %}
-      {% for link in item.links %}
-        <a href="{{ link.url }}">{% include markdown-inline.html text=link.label %}</a>
-      {% endfor %}
-      {% if item.abstract and item.abstract != "" %}
-        <div class="abstract-text">{{ item.abstract | markdownify }}</div>
-      {% endif %}
-    </div>
-  {% endif %}
-</article>
-{% endfor %}
+{% include research-entries.html entries=site.data.research.working %}

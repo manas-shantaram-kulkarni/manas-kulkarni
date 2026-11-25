@@ -78,19 +78,6 @@ a:hover {
   text-decoration: none;
 }
 
-.sidebar-bio {
-  color: var(--muted);
-  font-size: 13px;
-  line-height: 1.42;
-  margin: 0 0 18px;
-  max-width: 255px;
-  overflow-wrap: anywhere;
-}
-
-.sidebar-bio a {
-  white-space: nowrap;
-}
-
 .sidebar-nav {
   border-top: 1px solid var(--line);
   max-width: 255px;
@@ -163,12 +150,8 @@ li + li {
   margin-top: 4px;
 }
 
-.meta,
-.note {
-  color: var(--muted);
-}
-
 .meta {
+  color: var(--muted);
   font-size: 13px;
   margin-bottom: 6px;
 }
@@ -319,16 +302,6 @@ li + li {
     max-width: 260px;
   }
 
-  .sidebar-bio {
-    font-size: 12.5px;
-    margin-bottom: 13px;
-    max-width: 100%;
-  }
-
-  .sidebar-bio a {
-    white-space: normal;
-  }
-
   .sidebar-nav {
     display: grid;
     gap: 0 16px;
@@ -368,7 +341,6 @@ li + li {
   .entry-dates {
     text-align: left;
   }
-
 }
 
 @media (max-width: 430px) {

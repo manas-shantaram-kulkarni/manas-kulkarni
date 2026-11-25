@@ -16,7 +16,6 @@
         <h1 class="sidebar-name"><a href="{{ '/' | relative_url }}">{% include markdown-inline.html text=site.title %}</a></h1>
         <nav class="sidebar-nav" aria-label="Primary navigation">
           {% for item in site.data.navigation.main %}
-            {% assign first_char = item.url | slice: 0 %}
             {% if item.url contains '://' or item.url contains 'mailto:' %}
               {% assign item_url = item.url %}
             {% else %}
