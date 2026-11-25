@@ -42,6 +42,13 @@ Before college, I attended United World College Dilijan, an international boardi
 </article>
 {% endfor %}
 
+## Conference Presentations
+
+### Economic Connectedness Around the World: Measurement, Determinants, and Effects
+
+- NYU Scholar Speaker Series, 2026
+- Opportunity Insights, Harvard University, 2026
+
 ## Prior Independent Research
 
 {% for item in site.data.research.working %}

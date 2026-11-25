@@ -1,8 +1,19 @@
 published:
   - title: "Economic Connectedness Around the World: Measurement, Determinants, and Effects"
     coauthors: "Michael Bailey, Drew Johnston, Theresa Kuchler, Ayush Kumar, Manas Kulkarni, and Johannes Stroebel"
-    publication_info: "Revise and Resubmit at *Nature*"
-    abstract: ""
+    publication_info: "*Nature*, forthcoming"
+    abstract: >-
+      Social interactions across class lines are widely considered central to important economic and societal outcomes,
+      yet systematic evidence on their prevalence, determinants, and effects remains scarce. In this paper, we construct
+      and analyse global measures of economic connectedness (EC)—a form of social capital that captures the extent to which
+      individuals form friendships across socioeconomic lines—using data on 595 billion social connections among 2.1 billion
+      Facebook users from 183 countries. Consistent with prominent theories about the determinants of cross-class ties, social
+      networks are more divided by socioeconomic status in places with higher population density, greater inequality, stronger
+      spatial sorting by income, and tighter alignment of linguistic and socioeconomic divides. Together, these four factors
+      explain nearly two-thirds of the global variation in EC. Economic connectedness predicts key societal outcomes such as
+      higher upward income mobility, greater interpersonal and institutional trust, stronger prosocial norms and democratic values,
+      and weaker support for populist and authoritarian political appeals. Moreover, cross-country differences in EC statistically
+      account for the well-documented relationships between inequality and these sociopolitical outcomes.
     links: []
 
   - title: "The Social Connectedness Index: A Large-Scale Dataset of Social Ties Across Geographic Locations"
@@ -19,7 +30,10 @@ working:
   - title: "Caste, Class, & Cutoffs: The effect of identity-based and income-based affirmative action on educational attainment in India"
     coauthors: ""
     publication_info: "Honors Thesis in Economics, advised by Alejandro Ganimian (Harvard, Spring 2025)"
-    abstract: "Used a cohort difference-in-differences design and a nationally representative panel of 1.3 million Indians (2014–2024) to estimate the effects of caste- and income-based affirmative action reforms on educational attainment, finding that expanded caste-based reservations increased schooling by 0.26–0.88 years among newly eligible students."
+    abstract: >-
+      Used cohort difference-in-differences and age-specific event studies with a nationally representative panel survey covering
+      1.2 million Indians (2014–2024). Expanded income eligibility within the OBC quota increased completed schooling by 0.45 years
+      among school-age cohorts, with age-specific estimates as high as 0.88 years for cohorts with longer policy exposure.
     links: []
 
   - title: "Stay Hungry, Stay Foolish: The effect of mid-day school meals on academic performance in India"
@@ -30,7 +44,7 @@ working:
 
   - title: "Paying in Cash or by Card? The effect of cashlessness on consumption"
     coauthors: ""
-    publication_info: "Globalization and Private Governance, with Michael Hiscox (Harvard, Fall 2023)"
+    publication_info: "Globalization & Private Governance, with Michael Hiscox (Harvard, Fall 2023)"
     abstract: "Used India’s 2016 demonetization as a natural experiment and conducted complementary survey and pilot field experiments to examine how payment methods affect consumption, finding a negative association between digital payment adoption and aggregate consumption but contrasting experimental estimates of spending differences across payment methods."
     links: []
 
@@ -42,7 +56,7 @@ working:
 
   - title: "Read My Lips: Case studies on taxation as a tool for the populist pursuit of power"
     coauthors: ""
-    publication_info: "Democratization and Democratic Backsliding, with Daniel Ziblatt (Harvard, Spring 2023)"
+    publication_info: "Democratization & Democratic Backsliding, with Daniel Ziblatt (Harvard, Spring 2023)"
     abstract: "Conducted comparative case studies of populist leaders using process tracing, cross-country tax data, public opinion polls, and computational text analysis of speeches and manifestos; found evidence that right-wing populists’ use of progressive taxation rhetoric varies with the political salience of taxation."
     links: []
 
